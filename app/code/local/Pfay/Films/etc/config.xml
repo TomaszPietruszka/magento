@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Pfay_Films>
+            <version>0.1.0</version>
+        </Pfay_Films>
+    </modules>
+    <frontend>
+        <routers>
+            <routeurfrontend>
+                <use>standard</use>
+                <args>
+                    <module>Pfay_Films</module>
+                    <frontName>films</frontName>
+                </args>
+            </routeurfrontend>
+        </routers>
+    </frontend>
+    <layout>
+        <updates>
+            <pfay_films>
+                <file>pfay_films.xml</file>
+            </pfay_films>
+        </updates>
+    </layout>
+    <global>
+        <blocks>
+            <pfay_films>
+                <class>Pfay_Films_Block</class>
+            </pfay_films>
+        </blocks>
+    </global>
+
+</config>
